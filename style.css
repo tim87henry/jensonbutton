@@ -1,0 +1,14 @@
+html {
+    margin: 20px 50px;
+    font-family: "Open Sans", sans-serif;
+}
+p {
+    
+    width: 1500px;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  img{
+      width: 800px;
+      height: 500px;
+  }
