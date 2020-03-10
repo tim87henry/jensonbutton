@@ -26,11 +26,13 @@ img {
 img:hover {
     border-color:rgb(95, 80, 245);
     box-shadow: 0 10px 30px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    opacity: 0.8;
 }
 
 p:hover {
     box-shadow: 0 10px 30px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     border-color:rgb(95, 80, 245);
+    font-style: italic;
 }
 
 h1 {
@@ -40,5 +42,6 @@ h1 {
 
 h1:hover {
     font-style:italic;
+    text-decoration: underline;
     block-size: auto;
 }
