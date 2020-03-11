@@ -10,12 +10,19 @@ p {
     border-color: rgb(116, 116, 245);
     border-width: 10px;
     border-style: solid;
-    
   }
-  
+
+.head {
+    background-color: rgb(130, 130, 245);
+    background: linear-gradient(90deg, rgb(100, 110, 245),white);
+    transform: skewX(-20deg);
+    box-shadow: 0 13px 30px rgb(180, 177, 9);
+}
+
+
 img {
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 280px;
     margin: 20px;
     border-radius: 50%;
     border-style:solid;
@@ -38,10 +45,4 @@ p:hover {
 h1 {
     margin:10px 20px;
     font-size: 25px;
-}
-
-h1:hover {
-    font-style:italic;
-    text-decoration: underline;
-    block-size: auto;
 }
