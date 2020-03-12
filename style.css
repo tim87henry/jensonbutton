@@ -19,6 +19,16 @@ p {
     box-shadow: 0 13px 30px rgb(180, 177, 9);
 }
 
+h1:hover {
+    animation-name: title;
+    animation-duration: 5s;
+}
+
+@keyframes title {
+    100% {
+        background-color: rgb(180, 177, 9);
+    }
+}
 
 img {
     width: 280px;
@@ -43,6 +53,6 @@ p:hover {
 }
 
 h1 {
-    margin:10px 20px;
+    margin:10px 0px;
     font-size: 25px;
 }
