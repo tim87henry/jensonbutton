@@ -1,33 +1,33 @@
 html {
-    margin: 20px 50px;
+    margin: 0px 50px;
     font-family: "Open Sans", sans-serif;
+    background: linear-gradient(pink,rgb(243, 227, 227));
 }
 
 p {
     width: 1000px;
     border: 1px solid black;
-    padding: 10px;
-    border-color: rgb(116, 116, 245);
+    padding: 20px;
+    border-color: rgb(240, 133, 195);
     border-width: 10px;
     border-style: solid;
   }
 
 .head {
-    background-color: rgb(130, 130, 245);
-    background: linear-gradient(90deg, rgb(100, 110, 245),white);
+    background: rgb(240, 133, 195);
     transform: skewX(-20deg);
-    box-shadow: 0 13px 30px rgb(180, 177, 9);
+    box-shadow: 0 13px 30px  rgb(255, 133, 195);
+}
+
+.head:hover {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-color:rgb(95, 80, 245);
+    opacity: 0.8;
 }
 
 h1:hover {
-    animation-name: title;
-    animation-duration: 5s;
-}
-
-@keyframes title {
-    100% {
-        background-color: rgb(180, 177, 9);
-    }
+    box-shadow: 0 10px 30px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background:rgb(95, 80, 245);    
 }
 
 img {
@@ -37,19 +37,37 @@ img {
     border-radius: 50%;
     border-style:solid;
     border-width: 20px;
-    border-color: rgb(116, 116, 245);
+    border-color: rgb(240, 133, 195);
 }
 
 img:hover {
     border-color:rgb(95, 80, 245);
     box-shadow: 0 10px 30px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     opacity: 0.8;
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    25% {
+        transform: scale(0.5) rotate(90deg);
+    }
+    50% {
+        transform: scale(0.25) rotate(180deg);
+    }
+    75% {
+        transform: scale(0.5) rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 p:hover {
     box-shadow: 0 10px 30px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     border-color:rgb(95, 80, 245);
-    font-style: italic;
+    opacity: 0.8;
 }
 
 h1 {
