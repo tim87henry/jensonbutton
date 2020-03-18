@@ -11,17 +11,18 @@ p {
     border-color: rgb(240, 133, 195);
     border-width: 10px;
     border-style: solid;
+    display:flex;
   }
 
 .head {
     background: rgb(240, 133, 195);
     transform: skewX(-20deg);
     box-shadow: 0 13px 30px  rgb(255, 133, 195);
+    display:flex;
 }
 
 .head:hover {
     box-shadow: 0 10px 30px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    border-color:rgb(95, 80, 245);
     opacity: 0.8;
 }
 
@@ -38,6 +39,8 @@ img {
     border-style:solid;
     border-width: 20px;
     border-color: rgb(240, 133, 195);
+    max-width: 100%;
+    display:flex;
 }
 
 img:hover {
