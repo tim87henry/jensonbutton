@@ -2,6 +2,7 @@ html {
     margin: 0px 50px;
     font-family: "Open Sans", sans-serif;
     background: linear-gradient(pink,rgb(243, 227, 227));
+    height: 100%;
 }
 
 p {
@@ -26,55 +27,35 @@ p {
     opacity: 0.8;
 }
 
-h1:hover {
-    box-shadow: 0 10px 30px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    background:rgb(95, 80, 245);    
-}
-
-img {
-    width: 280px;
-    height: 280px;
-    margin: 20px;
-    border-radius: 50%;
-    border-style:solid;
-    border-width: 20px;
-    border-color: rgb(240, 133, 195);
-    max-width: 100%;
-    display:flex;
-}
-
-img:hover {
-    border-color:rgb(95, 80, 245);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    opacity: 0.8;
-    animation-name: rotate;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-@keyframes rotate {
-    25% {
-        transform: scale(0.5) rotate(90deg);
-    }
-    50% {
-        transform: scale(0.25) rotate(180deg);
-    }
-    75% {
-        transform: scale(0.5) rotate(270deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
 p:hover {
     box-shadow: 0 10px 30px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    border-color:rgb(95, 80, 245);
+    border-color:rgb(255, 133, 195);
     opacity: 0.8;
 }
 
 h1 {
     margin:10px 0px;
     font-size: 25px;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+#pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+}
+
+#jbutton {
+    display: flex;
+    flex-direction: row;
+}
+
+a:hover {
+    font-weight: bold;
 }
