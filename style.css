@@ -46,14 +46,24 @@ h1 {
 }
 
 #pic {
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     border-radius: 20px;
 }
 
 #jbutton {
     display: flex;
     flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
 }
 
 a:hover {
