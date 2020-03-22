@@ -34,26 +34,31 @@ p:hover {
 }
 
 h1 {
-    margin:10px 0px;
+    margin:10px 10px;
     font-size: 25px;
 }
 
 #links {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     margin-left: 20px;
 }
 
 #pic {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 250px;
     border-radius: 20px;
 }
 
-#jbutton {
-    display: flex;
-    flex-direction: row;
+#twpic {
+    width:30px;
+    height: 30px;
+}
+
+#wikpic {
+    width:30px;
+    height: 30px;
 }
 
 a {
